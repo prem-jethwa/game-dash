@@ -1,0 +1,27 @@
+
+
+.grid{
+    margin: 0 auto;
+    width: 400px;
+    height: 600px;
+    background-color: yellowgreen;
+    position: relative;
+    font-size: 100px;
+    color: white;
+    text-align: center;
+}
+
+.doodler {
+    width: 80px;
+    height: 85px ;
+    background:url(../char.png);
+    background-size: 100% 100%;
+    position: absolute;
+}
+
+.platform{
+    width: 85px;
+    height: 15px;
+    background-color: green;
+    position: absolute;
+}
