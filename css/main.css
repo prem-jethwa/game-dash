@@ -25,3 +25,18 @@
     background-color: green;
     position: absolute;
 }
+
+/* button */
+
+img{
+    width: 3rem;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin: .5em auto;
+}
+
+#right ,#left{
+    padding: 0 2em;
+}

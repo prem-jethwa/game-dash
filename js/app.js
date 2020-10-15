@@ -125,6 +125,8 @@ document.addEventListener('DOMContentLoaded', () =>{
         clearInterval(rightTimerId)
     }
 
+
+
     const control  = (e) => {
         if(e.key === "ArrowLeft"){
             // move left
@@ -137,7 +139,6 @@ document.addEventListener('DOMContentLoaded', () =>{
             moveStraight()
         }
     }
-
 
     const moveLeft = () => {
         if (isGoingRight) {
@@ -187,5 +188,14 @@ document.addEventListener('DOMContentLoaded', () =>{
     }
     //attach to button
     start()
+
+        
+    // button right and left
+
+    const rightBtn = document.getElementById("right");
+    const leftBtn = document.getElementById("left");
+
+    rightBtn.addEventListener("click", moveLeft);
+    leftBtn.addEventListener("click",moveRight);
 
 })
