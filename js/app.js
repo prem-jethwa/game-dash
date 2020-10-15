@@ -194,8 +194,11 @@ document.addEventListener('DOMContentLoaded', () =>{
 
     const rightBtn = document.getElementById("right");
     const leftBtn = document.getElementById("left");
+    const startBtn = document.getElementById("start");
+
 
     rightBtn.addEventListener("click", moveLeft);
     leftBtn.addEventListener("click",moveRight);
+    startBtn.addEventListener("click",()=>location.reload() )
 
 })
